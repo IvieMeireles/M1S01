@@ -1,0 +1,76 @@
+ h1 { 
+    background-image: url('tobias.jpg');
+    background-repeat: no-repeat;
+    background-color: #000;
+    color:brown;
+    font-family: 'Verdana', cursive;
+    text-align: center;
+    font-size: 50px;
+    float: center;
+    width: 800px;
+    height: 1280px;
+
+    }
+iframe {
+ display: flex;
+
+}
+
+p {
+    font-size: 14px;
+}
+
+body {
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+button {
+    
+    border: 2px solid  black;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #00b297;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.button {
+    background-color: rgb(128, 101, 154);
+    border: 2px solid rgb(221, 144, 12);
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.9;
+    transition: 0.3s;
+  }
+  .button:hover {
+    background-color: rgb(35, 217, 22);
+    color: rgb(255, 255, 255);
+  }
+  
+
+footer{
+    background-color: darksalmon;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+    padding-bottom: 5px;
+
+}
